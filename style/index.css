@@ -48,3 +48,8 @@ button{
 .hero p{
     color: white;
 }
+.speaker-container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    gap: 30px;
+}
