@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+nav img{
+    width: 120px;
+}
+a{
+    text-decoration: none;
+   color: black;
+    font-weight: bold;
+}
+button{
+    background-color: blue;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero{
+    background-image: url("../Media/banner.jpg");
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.hero h1{
+    color: white;
+}
+
+.hero p{
+    color: white;
+}
